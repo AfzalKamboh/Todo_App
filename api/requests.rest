@@ -1,0 +1,19 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text":"Order the Pakistan Airports"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/6493f8ce81c18380e6d51672
+
+
+###
+
+PUT http://localhost:3001/todo/complete/6493f8ce81c18380e6d51672
